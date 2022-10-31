@@ -50,11 +50,13 @@ body {
   padding: 0px;
 }
 
-.item, .subtitle {
+.item, 
+.subtitle {
   list-style: none;
 }
 
-.input,.button {
+.input,
+.button {
   outline: none;
 }
 
