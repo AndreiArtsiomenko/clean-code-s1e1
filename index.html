@@ -7,29 +7,29 @@
 </head>
 <body>
   <header class="header">
-    <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-    <a class="header-link" 
+    <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <a class="header__link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?;</a>
   </header>
   <main class="main">
-    <section id="main-section-add">
-      <label class = "label label-create-task" for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
+    <section class="main__section-add section-add">
+      <label class = "label section-add__label" for="new-task">Add Item</label>
+      <div class="section-add__row-wrapper">
         <input id="new-task" class="input task" type="text">
         <button class="button">Add</button>
       </div>
     </section>
     <section>
       <h3 class="subtitle">Todo</h3>
-      <ul class = "list" id="main-section-todo">
-        <li class = "item">
+      <ul class = "section-todo__list list">
+        <li class = "section-todo__item item">
           <input class = "checkbox input" type="checkbox">
           <label class="label task">Pay Bills</label>
           <input type="text" class="task input">
           <button class="button btn-edit">Edit</button>
           <button class="button btn-delete"><img src="./remove.svg" alt="Remove"></button>
         </li>
-        <li class="item edit-mode">
+        <li class="section-todo__item item edit-mode">
           <input class = "checkbox input" type="checkbox">
           <label class="label task">Go Shopping</label>
           <input type="text" value="go shopping" class="task input">
@@ -38,10 +38,10 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="main__section-completed section-completed">
       <h3 class="subtitle">Completed</h3>
-      <ul class = "list" id="main-section-completed">
-        <li class = "item">
+      <ul class = "section-completed__list list">
+        <li class = "section-completed__item item">
           <input class = "checkbox input" type="checkbox" checked>
           <label class="label task">See the Doctor</label>
           <input type="text" class="task input">
